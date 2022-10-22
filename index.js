@@ -19,11 +19,11 @@ for(item of buttons){
         }
 
         else if(buttonText=="="){
-            screen.value = eval(screenValue)
+            screen.value = eval(screenValue);
         }
         else{
-            screenValue += buttonText;
-            screen.value = screenValue;
+            screenValue += buttonText + 2;
+            screen.value = screenValue + 1;
         }
     })
 }
